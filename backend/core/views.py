@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Property, Booking
-from .serializes import PropertySerializer , BookingSerializer
+from .serializers import PropertySerializer , BookingSerializer
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 from .permissions import IsownerOrReadOnly
