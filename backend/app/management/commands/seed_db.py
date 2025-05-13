@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 from django.utils import timezone
-from app.models import user, AmenityType, PropertyType, Room, Photo, Property, Amenity, Booking, RoomBooking, Review
+from .models import User, Property, Room, Booking, RoomBooking, Review, Photo, PropertyType, Amenity, AmenityType
 
 
 
@@ -24,7 +24,7 @@ class Command(BaseCommand) :
         # Adding new Users
         user1 = User.objects.create_user(username='user1', password='password123', is_host=True)
         user2 = User.objects.create_user(username='user2', password='password456', is_host=True)
-        user3 = User.objects.create_user(username='user3', password='password789', is_host=False)
+        user3 = User.objects.create_user(username='guest1', password='password789', is_host=False)
 
 
         # Adding AmenityType
