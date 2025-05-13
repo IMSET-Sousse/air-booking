@@ -42,7 +42,7 @@ Création d’un site web de réservation en ligne destiné à permettre aux uti
 
 ## 4. Spécifications techniques
 
-- **Front-end** : React, Angular ou Vue.js pour interface dynamique et réactive.  
+- **Front-end** : nextjs.  
 - **Back-end** : Django.  
 - **Base de données** : PostgreSQL.  
 - **Hébergement** : Cloud (AWS, Azure, Google Cloud) avec scalabilité.  
@@ -53,13 +53,13 @@ Création d’un site web de réservation en ligne destiné à permettre aux uti
 
 ## 5. Planning prévisionnel
 
-| Phase                  | Durée estimée | Livrables                       |
+| Phase                  | Durée estimée | Livrables                      |
 |------------------------|---------------|--------------------------------|
-| Analyse & cahier des charges | 2 semaines   | Document cahier des charges     |
-| Conception UX/UI       | 3 semaines    | Maquettes et prototypes Figma  |
-| Développement back-end | 6 semaines    | API fonctionnelle              |
-| Développement front-end| 6 semaines    | Interface utilisateur complète |
-| Tests & validation     | 3 semaines    | Tests unitaires, fonctionnels  |
+| Analyse & cahier des charges | 1 jour  | Document cahier des charges    |
+| Conception UX/UI       | 3 jours       | Maquettes et prototypes Figma  |
+| Développement back-end | 1 semaine     | API fonctionnelle              |
+| Développement front-end| 1 semaine     | Interface utilisateur complète |
+| Tests & validation     | 1 jour        | Tests unitaires, fonctionnels  |
 | Mise en production     | 1 semaine     | Site en ligne                  |
 
 ---
